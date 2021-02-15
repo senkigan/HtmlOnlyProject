@@ -2,3 +2,8 @@
  	font-family:"softwareTester";
 	src: url("../fonts/softester7.ttf") format("truetype");
 }
+
+@font-face {
+	font-family: "osloBold";
+	src: url("../fonts/codenewroman.otf");
+}

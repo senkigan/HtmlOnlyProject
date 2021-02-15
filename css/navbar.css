@@ -1,3 +1,10 @@
+.logo {
+	position: absolute;
+	float: left;
+	top: -9px;
+	font-family: softwareTester;
+	font-size: 30px;
+}
 
 .navbar-container {
 	position: fixed;
@@ -18,7 +25,7 @@
 .navbar-item  {
 	position: relative;
 	display: inline-block;
-	margin: 0px 15px 0px 15px;
+	margin: 0px 30px 0px 30px;
 }
 
 .navbar-item::after {
