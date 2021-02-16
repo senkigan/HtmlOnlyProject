@@ -1,9 +1,10 @@
+
 .logo {
-	position: absolute;
-	float: left;
-	top: -9px;
+	position: fixed;
+	top: -10px;
 	font-family: softwareTester;
 	font-size: 30px;
+	color: white;
 }
 
 
@@ -52,4 +53,12 @@
 
 }
 
-.
+.navbar-item.active::after {
+	content: "";
+	background-color: white;
+	position: absolute;
+	width: calc(100% + 20px);
+	height: 2px;
+	left: -10px;
+	top: 40px;
+}
