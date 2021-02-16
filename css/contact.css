@@ -1,0 +1,74 @@
+.contact-container {
+	position: relative;
+	top: 20vh;
+	left: 30vw;
+	width: 40%;
+	height: 100vh;
+	max-height: 400px;
+	min-height: 100px;
+	background-color: #292929;
+	border-radius: 10px;
+}
+
+.form-body {
+	width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+
+.form-input {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+	top: 40px;
+	left: 100px;
+	width: 300px;
+	height: 30px;
+	font-family: cocomatUL;
+	font-size: 20px;
+}
+
+.contact-header {
+	position: absolute;
+	top: 13vh;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+
+#contact-text {
+	font-family: softwareTester;
+	text-align: center;
+	margin: 0;
+}
+
+#message {
+	height: 80px;
+}
+
+#submit-button {
+	position: absolute;
+	top: 85%;
+	left: 38%;
+	font-family: inherit;
+	padding: 10px 20px 10px 20px;
+	background-color: #121212;
+	border: 1px solid grey;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-family: softwareTester;
+	transition: 0.5s;
+}
+
+#submit-button:hover {
+	border-color: black;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
