@@ -1,0 +1,14 @@
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-family: raleway-light;
+	text-align: center;
+	background-color: #121212;
+}
+
+footer > p {
+	font-family: raleway-light;
+	color: white;
+}
