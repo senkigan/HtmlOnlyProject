@@ -1,4 +1,4 @@
-# HtmlOnlyProject
+# GoMyCode 2nd Checkpoint
 
 Quick clone copy/paste:
 
