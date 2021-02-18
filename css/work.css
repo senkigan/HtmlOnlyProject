@@ -1,0 +1,16 @@
+.projects-holder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	top: 22vh;
+	height: 65vh;
+	margin: -8px;
+}
+
+.project {
+	width: 30vw;
+	height: 425px;
+	border: 1px double #121212;
+	outline: 1px;
+}
